@@ -15,7 +15,8 @@ import java.util.List;
 
 public class BrowserStackSampleTests {
 
-    @Test
+        @Test
+        @Tag("smoke")
     void searchTest() throws MalformedURLException, InterruptedException {
 
         DesiredCapabilities caps = new DesiredCapabilities();

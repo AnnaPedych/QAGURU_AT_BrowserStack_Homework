@@ -56,8 +56,8 @@ task android_tests(type: Test) {
     }
 }
 
-task ios_tests(type: Test) {
+task smoke_tests(type: Test) {
     useJUnitPlatform {
-        includeTags 'ios'
+        includeTags 'smoke'
     }
 }
