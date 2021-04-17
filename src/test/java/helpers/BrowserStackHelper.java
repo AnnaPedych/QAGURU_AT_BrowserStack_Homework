@@ -7,7 +7,7 @@ public class BrowserStackHelper {
 
     public static String getBrowserstackVideoUrl(String sessionId) {
         String video_url = given()
-                .auth().basic("egor329", "BosBWYNkXzixszWznqEk")
+                .auth().basic("annapedych1", "p4PFrppWsn3zzqM22tzR")
                 .when()
                 .get("https://api-cloud.browserstack.com/app-automate/sessions/" + sessionId +".json")
                 .then()
@@ -22,7 +22,7 @@ public class BrowserStackHelper {
 
     public static String getBSPublicLink(String sessionId){
         String publicUrl = given()
-                .auth().basic("egor329", "BosBWYNkXzixszWznqEk")
+                .auth().basic("annapedych1", "p4PFrppWsn3zzqM22tzR")
                 .when()
                 .get("https://api-cloud.browserstack.com/app-automate/sessions/" + sessionId +".json")
                 .then()
