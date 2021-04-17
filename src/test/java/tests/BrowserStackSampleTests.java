@@ -14,7 +14,7 @@ import java.net.URL;
 import java.util.List;
 
 @Tag("android")
-public class BrowserStackAndroidTests {
+public class BrowserStackSampleTests {
 
     @Test
     void searchTest() throws MalformedURLException, InterruptedException {
