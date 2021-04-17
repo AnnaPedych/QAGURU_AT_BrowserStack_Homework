@@ -13,7 +13,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-@Tag("android")
 public class BrowserStackSampleTests {
 
     @Test
